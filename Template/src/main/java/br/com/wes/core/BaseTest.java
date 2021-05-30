@@ -20,8 +20,8 @@ public class BaseTest {
 		System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");
 		page.acessarTelaInicial();
 		
-		page.setEmail("wesleylins.soares@gmail.com");
-		page.setSenha("Jacobs13");
+		page.setEmail("testetestando@test.com");
+		page.setSenha("testtest123");
 		page.entrar();
 		
 	}
